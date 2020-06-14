@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+
+  container-app:
+    image: container-app
+    container_name: conatiner-app
+    build: ./container-app
+    ports: 
+      -  8080:80
+    depends_on: 
+      - user-app
+      - details-app
+   
+  user-app:
+   image: user-app
+   container_name: user
+   build: ./user-app
+   ports:
+    - 8081:80
+
+  details-app:
+   image: details-app
+   build: ./details-app
+   container_name: details
+   ports:
+    - 8082:80
+
