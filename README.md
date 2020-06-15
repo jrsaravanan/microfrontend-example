@@ -14,6 +14,9 @@ Micro-Frontend Example , has following applications:
 [![alt](mff.png)]
 
 
+## Contributors 
+@hgallegos
+@jrsaravanan
 
 ## Build
 ```
