@@ -2,13 +2,13 @@
 
 [![alt](container.png)]
 
-Micro-Frontend Examaple , has three applications:
+Micro-Frontend Example , has following applications:
 
-container-app : Sample Composition Application , compose microfront applications and integrate application. Provides  Layouts, commons and navigation.
+**container-app** : Sample Composition Application , compose micro frontend  applications and integrate application. Provides  Layouts, commons and navigation. On clicking sidenav menu it loads the corresponding application
 
-user-app : User application get user info , on submission it passes the information to details application.
+**user-app** : User application gets  information , on submission it passes the information to the details application .
 
-details-app: Show user details passed from user-app.
+**details-app** : Show user details passed from user-app.
 
 
 [![alt](mff.png)]
