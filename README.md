@@ -15,8 +15,8 @@ Micro-Frontend Example , has following applications:
 
 
 ## Contributors 
-@hgallegos
-@jrsaravanan
+user:hgallegos
+user:jrsaravanan
 
 ## Build
 ```
