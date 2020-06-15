@@ -1,5 +1,5 @@
 #!/bin/bash
-# Simple script to build angular app
+# Simple script to build  UI application and docker images
 # Usage ./build.sh
 # ----------------------------------------------------
 
