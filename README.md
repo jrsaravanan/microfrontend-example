@@ -1,6 +1,6 @@
 # Micro-Frontend Example 
 
-[![alt](container.png)]
+![alt](container.png)
 
 Micro-Frontend Example , has following applications:
 
@@ -11,12 +11,8 @@ Micro-Frontend Example , has following applications:
 **details-app** : Show user details passed from user-app.
 
 
-[![alt](mff.png)]
+![alt](mff.png)
 
-
-## Contributors 
-user:hgallegos
-user:jrsaravanan
 
 ## Build
 ```
@@ -31,8 +27,8 @@ sudo docker-compose up
 
 ## Run Applicaions
 ```sh
-$sudo docker run -d --name container-app -p 8080:80  container-app
-$sudo docker run -d --name usr -p 8081:80 user-app
-$sudo docker run -d --name details -p 8082:80 details-app
+$sudo docker run -d --name container-app -p 8080:80  jrsaravanan/container-app
+$sudo docker run -d --name usr -p 8081:80 jrsaravanan/user-app
+$sudo docker run -d --name details -p 8082:80 jrsaravanan/details-app
 
 ```
